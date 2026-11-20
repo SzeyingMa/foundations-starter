@@ -1,1 +1,35 @@
+Homework Plan — Lists
+Overall Task: Reading Log Analyzer
+I will design a homework assignment where students use lists to analyze the number of pages they read during different study sessions.
+
+Smaller tasks:
+Write a function to calculate the total number of pages read.
+Write a function to calculate the average number of pages per session.
+Write a function to count how many sessions meet a reading goal.
+Write a function to find the largest number of pages read in one session.
+
+Learning Outcomes
+Write functions that process lists to calculate information, including totals, averages, and the number of items that meet a given condition.
+Trace and debug Python functions that use lists by identifying incorrect indexing, unexpected list values, and logical errors.
+
+Debugging Component
+I will include a short debugging question in which students examine a function that processes a list but contains errors. Students will identify incorrect indexing, explain unexpected results, and correct logical errors.
+I will aim to keep the required solution within approximately 20–30 lines of code, excluding comments and docstrings. Students may use different valid approaches to solve the tasks.
+
+Activity Plan — Loops
+Activity: Predict, Trace, and Explain
+
+Students will work in pairs to trace short Python loop examples before running them. They will record the value of the loop variable, check the loop condition, and predict the output. After making their predictions, they will run the code and compare the actual results with their answers.
+Step 1: Trace a for loop
+for number in range(1, 5):
+    print(number)
+
+Prompt: Which numbers will be printed? Is 5 included? How many times will the loop run?
+This step addresses off by one errors by helping students understand that the ending value in range() is not included.
+
+Step 2: Examine a while loop
+Students will trace a while loop and record how its condition changes during each iteration.
+
+Prompt: When does the loop stop? What would happen if the condition or counter update changed?
+This step addresses incorrect loop conditions by helping students understand how conditions are evaluated and when a loop terminates.
 
